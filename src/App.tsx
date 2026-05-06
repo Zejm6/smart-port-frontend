@@ -46,7 +46,7 @@ interface Ruleset {
   max_calls_per_day_per_port: number | null;
 }
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://h673zybi22.execute-api.eu-central-1.amazonaws.com/prod";
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<Tab>("optimize");
